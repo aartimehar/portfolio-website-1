@@ -11,20 +11,18 @@
 }
 
 :root {
-    --bg-color: #ff7f50 ;
+    --bg-color: #800080 ;
     --bg-color-variant: #f76d61
     --color-primary: #f88379;
     --color-secondary-variant: #feebe9;
     --color-white: #ffffff;
     --color-light : rgba(255,255,255 ,0.6);
-  
     --containter-width-lg: 75%;
     --containter-width-md: 86%;
     --containter-width-sm: 90%;
 }
 
-h
-tml {
+html {
     scroll-behavior: smooth;
 }
 
@@ -57,6 +55,7 @@ h1{
 
 section{
     margin-top: 7.5rem;
+    height: 700px ;
 }
 
 section > h2 ,section > h5 {
@@ -80,7 +79,7 @@ a {
 
 a:hover {
     color: var(--color-white);
-    /* transition: var(--color-secondary-variant-hover); */
+    transition: var(--color-secondary-variant-hover);
 }
 
 .btn {
@@ -146,11 +145,11 @@ img {
     section > h2 {
         margin-top: 2rem;
     }
-}
-.Profilepic {
+
+.profilepic {
     background: var(--bg-color-variant);
-    width:22rem;
-    height:22rem;
+    width: 37px;
+    height: 40px;
     position: absolute;
     left:calc(50%-11rem);
     margin-top: 4rem;
@@ -158,6 +157,7 @@ img {
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-
+}
 /* ================Scroll Down================ */
+
 
