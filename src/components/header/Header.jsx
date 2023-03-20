@@ -3,6 +3,7 @@ import './header.css'
 import CTAheader from './CTAheader'
 import MY from '../../assets/My project.png'
 import HeaderSocialsMedia from './HeaderSocialsMedia'
+import '../../index.css'
 
 
 
@@ -12,7 +13,7 @@ const Header = () => {
       <div className="container header-container">
         <h5>Hello I'm </h5>
         <h1>Aarti </h1>
-        <h5 className="text-dark">{"< Front End Web Developer />"}</h5>
+        <h5 className="text-dark">{"<Front End Web Developer/>"}</h5>
         <CTAheader />
         <HeaderSocialsMedia />
         <div className="my">

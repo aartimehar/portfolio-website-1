@@ -14,7 +14,7 @@ const Experience = () => {
         <div className="experience_content">
           <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>HTML</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -22,7 +22,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>CSS</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -30,7 +30,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Javascript</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -38,7 +38,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Bootstrap</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -46,7 +46,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Tailwind</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -54,7 +54,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>React</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -68,7 +68,15 @@ const Experience = () => {
             <div className="experience_content">
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
+            <h4 className='set-gap'>Adobe Illustrator</h4>
+            <small className='text-light'> Experienced </small>
+            </div>
+            </article>
+
+            <article className="experience_details">
+            <GoVerified className='experience_details_icon'/>
+            <div className='text-align'>
             <h4>Figma</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -76,15 +84,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
-            <h4>Adobe Illustrator</h4>
-            <small className='text-light'> Experienced </small>
-            </div>
-            </article>
-
-            <article className="experience_details">
-            <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Canvas</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -93,7 +93,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Blender 3D</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -102,7 +102,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Polypane</h4>
             <small className='text-light'> Experienced </small>
             </div>
@@ -111,7 +111,7 @@ const Experience = () => {
 
             <article className="experience_details">
             <GoVerified className='experience_details_icon'/>
-            <div>
+            <div className='text-align'>
             <h4>Adobe XD</h4>
             <small className='text-light'> Experienced </small>
             </div>

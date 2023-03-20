@@ -12,16 +12,17 @@
 }
 
 :root {
-    --bg-color: #FF6D00;
-    --bg-color-variant: #f76d61
-    --color-primary: #f88379;
-    --color-secondary-variant: #feebe9;
-    --color-white: #ffffff;
-    --color-light : rgba(255,255,255 ,0.6);
+    --first-color:#8aacff;
+    --second-color:#301781;
+    --third-color:#6d42c7;
+    --fourth-color:#e85b48; 
+    --fifth-color:#f8f6f6;
+    --sixth-color:#f45905;
     --containter-width-lg: 75%;
     --containter-width-md: 86%;
     --containter-width-sm: 90%;
     --transition: all 400ms ease;
+
 }
 
 html {
@@ -34,8 +35,8 @@ html {
 
 body {
      font-family: 'Roboto Mono', monospace;
-     background: var(--bg-color);
-     color: var(--color-secondary-variant);
+     background: var(--second-color);
+     color:var(--sixth-color);
      line-height: 1.9;
      background-image:url(./assets/bg-texture.png)
 }
@@ -56,48 +57,48 @@ h1{
 }
 
 section{
-    margin-top: 7.5rem;
+    margin-top: 4.5rem;
     
 }
 
 section > h2 ,section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--sixth-color);
 }
 
 section > h2 {
-    color: var(--bg-color-variant);
+    color: var();
     margin-bottom: 2.9rem;
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--first-color);
 }
 
 a {
-    color: var(--bg-color-variant);
+    color: var(--sixth-color);
     transition: var(--color-secondary-variant);
 }
 
 a:hover {
-    color: var(--color-white);
-    transition: var(--color-secondary-variant);
+    color: var(--fifth-color);
+    transition: var(--fourth-color);
 }
 
 .btn {
     width:max-content;
-    color: var(--bg-color-variant);
+    color: var(--sixth-color);
     display: inline block;
     padding:0.85rem 1.2rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    border: 1px solid var(--bg-color-variant);
-    transition: var(--color-white);
+    border: 1px solid var(--sixth-color);
+    transition: var(--fourth-color);
 }
 
 .btn:hover { 
-    background: var(--color-white);
-    color: var(--bg-color);
+    background: var(--sixth-color);
+    color: var(--fifth-color);
     border-color: transparent;
 }
 
@@ -108,7 +109,7 @@ a:hover {
 }
 .btn-primary {
     background: var(--color-white);
-    color: var(--bg-color);
+    color: var(--sixth-color);
     /* border-color: transparent;
     transition: var(--color-primary-variant); */
 }

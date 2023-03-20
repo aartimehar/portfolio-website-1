@@ -1,8 +1,8 @@
 .about_container {
     display: grid;
-    grid-template-rows: 35% 50%;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15%;
+    gap: 3%;
+    height: 70vh;
 }
 
 .about_me { 
@@ -12,6 +12,13 @@
     display: grid;
     justify-content: left;
     place-items: center;
+    margin-left: -31px;
+    margin-top: 8rem;
+    
+}
+
+.about_me:hover{
+    background-color: var(--second-color);   
 }
 
 .aboutme_image {
@@ -21,52 +28,157 @@
     height: 100%;
     transform: rotate(10deg);
     transition: var(--transition);
-    background: black;
+  
 } 
 
 .aboutme_image:hover {
     transform: rotate(0);
+    
 }
 
 .aboutme_cards {
     display: grid;
     grid-template-columns:repeat(3 , 1fr);
-    gap: 1.5rem;
-
+    gap: 0.5rem;
+    justify-items: center;
+    margin-top: 84px;
 }
 
-.aboutme_card {
-    background: solid blue;
-    border: 1px solid black;
-    border-radius: 2rem;
-    padding: 1.5rem;
+
+section > h2 ,section > h5 {
+    text-align: center;
+   
+}
+
+.aboutme_card > h5  {
     text-align: center;
 }
 
+.duration {
+    margin-left: 47px;
+    
+}
+ .aboutme_card {
+    display: block;
+    position: relative;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 32px 24px;
+    margin: 28px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 4px solid var(--sixth-color);
+    color: white;
+   
+  
+}
+
 .aboutme_card:hover {
-    background: transparent;
-   border-color:purple ;
+   background-color: var(--sixth-color);
+   color: rgba(255, 255, 255, 0.8);
    cursor: default;
 }
 
 .aboutme_icon {
-    color: violet;
+    color: white;
     font-size:1.4rem;
     margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 77px;
 }
 
 .aboutme_card h5 {
     font-size: 1rem;
+    
 }
 
 .aboutme_card small{
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--fifth-color);
 
 }
 
 .aboutme_content p {
-margin: 2rem 0 2.6rem;
-color: var(--color-light);
+margin: 3rem 2rem 4.6rem;
+color: var(--fifth-color);
+
 }
 
+.btn.btn-primary {
+    margin-left: 2rem;
+
+    
+   
+}
+
+
+/*===================Media Queries (Medium Devices) ============================*/
+
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .aboutme_content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+
+/*===================Media Queries (small devices) ============================*/
+
+@media screen and (max-width: 600px) {
+    .about_me {
+        width:65%;
+        margin: 3rem 4rem 3rem;
+    }
+    .aboutme_cards {
+        grid-template-columns: 1fr;
+        gap: -12.5rem;
+        margin-left: -19px;
+        margin-top: -100px;
+        }
+        .aboutme_content p {
+            margin: 0rem 0rem 3rem 0rem;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .about_container {
+            display: grid;
+            grid-template-columns: repeat(0, 1fr);
+            height: 168vh;
+            margin-top:  120px; ;
+        }
+
+        .aboutme_content {
+            text-align: center;
+        }
+
+        .duration {
+            margin-left: 0px;
+        }
+
+        section{
+            margin-top: 3.5rem;
+        }
+
+        .aboutme_icon {
+            
+            margin-bottom: 1rem;
+            text-align: center;
+            margin-left: 0px;
+        }
+
+       
+    }
+
+    
