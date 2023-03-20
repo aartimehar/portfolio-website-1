@@ -2,6 +2,7 @@ import React from 'react'
 import {ImLinkedin} from 'react-icons/im'
 import {ImGithub} from 'react-icons/im'
 import {ImTwitter} from 'react-icons/im'
+import './header.css'
 
 const HeaderSocialsMedia = () => {
   return (

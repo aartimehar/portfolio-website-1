@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+
 * {
     margin: 0;
     padding :0;
@@ -11,7 +12,7 @@
 }
 
 :root {
-    --bg-color: #800080 ;
+    --bg-color: #FF6D00;
     --bg-color-variant: #f76d61
     --color-primary: #f88379;
     --color-secondary-variant: #feebe9;
@@ -56,7 +57,7 @@ h1{
 
 section{
     margin-top: 7.5rem;
-    height: 100vh ;
+    
 }
 
 section > h2 ,section > h5 {
@@ -80,7 +81,7 @@ a {
 
 a:hover {
     color: var(--color-white);
-    transition: var(--color-secondary-variant-hover);
+    transition: var(--color-secondary-variant);
 }
 
 .btn {
@@ -98,9 +99,13 @@ a:hover {
     background: var(--color-white);
     color: var(--bg-color);
     border-color: transparent;
-     
 }
 
+.cta-zindex{
+    z-index: 99;
+    position: relative;
+
+}
 .btn-primary {
     background: var(--color-white);
     color: var(--bg-color);
