@@ -1,7 +1,7 @@
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:2.5rem;
+    gap:3.5rem;
 }
 
 .item-portfolio {
@@ -20,6 +20,7 @@
 .portfolio_image-item {
     border-radius: 1.5rem;
     overflow: hidden;
+    width: 100%;
 }
 
 .item-portfolio h3 {
@@ -29,13 +30,11 @@
 
 .portfolio-item-cta {
     display: flex;
-    gap:4rem;
+    gap: 4rem ;
     margin-bottom: 1rem;
 
 }
- .btn {
-    margin-left: 15px;
- }
+
 
 
 
