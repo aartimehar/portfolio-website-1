@@ -35,7 +35,7 @@ html {
 
 body {
      font-family: 'Roboto Mono', monospace;
-     background: var(--second-color);
+    background: var(--second-color);
      color:var(--sixth-color);
      line-height: 1.9;
      background-image:url(./assets/bg-texture.png)

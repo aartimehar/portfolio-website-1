@@ -5,7 +5,7 @@
 }
 
 .item-portfolio {
-    background: teal;
+    background: transparent;
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -14,7 +14,7 @@
 
 .item-portfolio:hover {
     border-color: var(--accent);
-    background: transparent;
+    background: teal;
 }
 
 .portfolio_image-item {
@@ -23,16 +23,21 @@
 }
 
 .item-portfolio h3 {
-    margin:1.2rem 0 2rem;
+    margin:1.2rem 110px 2rem;
 }
 
 
 .portfolio-item-cta {
     display: flex;
-    gap:1rem;
+    gap:4rem;
     margin-bottom: 1rem;
 
 }
+ .btn {
+    margin-left: 15px;
+ }
+
+
 
 /*===================Media Queries (Medium Devices) ============================*/
 
@@ -50,4 +55,13 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .item-portfolio {
+        padding: -0.7rem;
+    }
+
+    .btn {
+        margin-left: -20px;
+    }
+
+    
 }

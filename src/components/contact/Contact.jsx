@@ -33,21 +33,23 @@ export const contact = () => {
 
       <article className="contact_option">
       <HiOutlineMail className='contact_icon'/>
-      <h4>Email</h4>
+      <h4>
       <a href = "mailto:lyhxr@example.com">Email</a>
+      </h4>
       </article>
 
 
       <article className="contact_option">
       <BiMessageAltDetail className='contact_icon' />
-      <h4>Messenger</h4>
+      <h4>
       <a href = "https://react-icons.github.io/react-icons/search?q=email">Message</a>
+      </h4>
       </article>
 
       <article className="contact_option">
       <BsLinkedin className='contact_icon' />
-      <h4>Linkedin</h4>
-      <a href = "https://www.linkedin.com/in/aartimeherchandani/">Linkedin</a>
+      <h3><a href = "https://www.linkedin.com/in/aartimeherchandani/">Linkedin</a>
+      </h3>
       </article>
       </div>
 

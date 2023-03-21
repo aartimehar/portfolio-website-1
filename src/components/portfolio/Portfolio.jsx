@@ -1,11 +1,11 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/scott-webb-vrYennkq3QM-unsplash.jpg'
-import IMG2 from '../../assets/My-project3.png'
-import IMG3 from '../../assets/My-project3.png'
-import IMG4 from '../../assets/My-project3.png'
-import IMG5 from '../../assets/My-project3.png'
-import IMG6 from '../../assets/My-project3.png'
+import IMG1 from '../../assets/Password_Monochromatic.png'
+import IMG2 from '../../assets/Checklist_Monochromatic.png'
+import IMG3 from '../../assets/CSS_Monochromatic.png'
+import IMG4 from '../../assets/Online team meeting _Monochromatic.png'
+import IMG5 from '../../assets/Question_Flatline.png'
+import IMG6 from '../../assets/Weather_Monochromatic.png'
 
 const data= [ 
   {
@@ -17,35 +17,35 @@ const data= [
   },
   {
     id:2 ,
-    image:IMG1,
+    image:IMG2,
     title: 'SEO Horizeon',
     github:'https://github.com/aartimehar',
     demo: 'https://dribbble.com/shots/20952494-Handyman-App'
   },
   {
     id:3 ,
-    image:IMG1,
+    image:IMG3,
     title: 'SEO Horizeon',
     github:'https://github.com/aartimehar',
     demo: 'https://dribbble.com/shots/20952494-Handyman-App'
   },
   {
     id:4 ,
-    image:IMG1,
+    image:IMG4,
     title: 'SEO Horizeon',
     github:'https://github.com/aartimehar',
     demo: 'https://dribbble.com/shots/20952494-Handyman-App'
   },
   {
     id:5 ,
-    image:IMG1,
+    image:IMG5,
     title: 'SEO Horizeon',
     github:'https://github.com/aartimehar',
     demo: 'https://dribbble.com/shots/20952494-Handyman-App'
   },
   {
     id:6 ,
-    image:IMG1,
+    image:IMG6,
     title: 'SEO Horizeon',
     github:'https://github.com/aartimehar',
     demo: 'https://dribbble.com/shots/20952494-Handyman-App'
@@ -68,8 +68,8 @@ const Portfolio = () => {
             </div>
             <h3>{title}</h3>
             <div className="portfolio-item-cta">
-            <a href={github} className='btn'>Github</a>
-            <a href={demo} className='btn btn-primary' target= '_blank'>Live Demo</a>
+            <a href={github} className='btn'>  Github-repo    </a>
+            <a href={demo} className='btn btn-primary' target= '_blank'> Live-Demo</a>
             </div>
             </article>
           )
