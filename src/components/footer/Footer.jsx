@@ -19,13 +19,13 @@ const Footer = () => {
 </ul>
 
 <div className='footer_social'>
-<a href= "https://en-gb.facebook.com/"><BsFacebook/></a>
-<a href= "https://www.instagram.com/"><BsInstagram/></a>
-<a href= "https://twitter.com/aartimaher"><BsTwitter/></a>
+<a href= "https://en-gb.facebook.com/aarti.maherchandani" target="_blank"><BsFacebook/></a>
+<a href= "https://www.instagram.com/organicycled/" target="_blank"><BsInstagram/></a>
+<a href= "https://twitter.com/aartimaher" target="_blank"><BsTwitter/></a>
 </div>
 
 <div className="copyright-footer">
-  <small>&copy;Aarti Meharchandani.All rights reserved </small>
+  <small>&copy; Aarti Meharchandani.All rights reserved </small>
 </div>
 </footer>
   )

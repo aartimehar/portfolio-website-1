@@ -13,7 +13,7 @@ const About = () => {
     <div className = "container about_container">
     <div className = "about_me"> 
     <div className = 'aboutme_image'>
-    <img src = {MY} alt= "aboutme-image"/>
+    <img src = {MY} alt= "aboutme-image" className='about_fotorai'/>
     </div>
     </div>
 
@@ -41,10 +41,34 @@ const About = () => {
         </div>
 
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Obcaecati, dignissimos? Debitis exercitationem natus sed 
-      architecto eos praesentium optio repellendus maiores. 
-      Velit tempora nemo dolorem quidem numquam animi ratione ut vel?
+      Hi. My name is Aarti and I’m passionate about crafting 
+      meaningful experiences through design and web-development. 
+      I bring my unique perspective to both of the technical and 
+      visual aspects of digital products to life.
+      <br></br>
+      <br></br>
+      As a supporter of 
+      Simon Fitzpatrick,   
+      <a href=" https://iep.utm.edu/simplici/#" target="_blank" aria-label="Simplicity in the Philosophy of Science">
+      Simplicity in the Philosophy of Science </a> I agree less is more.
+      I have a  <span class="bold"> BA in Project Management </span> from &nbsp;
+      <a href="https://www.mdx.ac.uk/"
+      target="_blank"
+      aria-label="open link to bootstrap sizing guide.">Middlesex University London . </a>
+      The <span class="bold"> IBM Environmental Award </span> from &nbsp;
+      <a href="https://www.mdxsu.com/articles/middlesex-uni-awarded-a-1st-for-environmental-impact"
+        target="_blank"
+        aria-label="IBM Environmental Award" >Middlesex University - for sustainability impact </a>
+        and <span class="bold"> active member in </span>
+      <a
+        href="https://peopleandplanet.org/university-league/2021/u226/middlesex-university"
+        target="_blank"
+        aria-label="open link to bootstrap sizing guide.">People and Planet Society.</a>
+      
+      <br></br>
+      <br></br>
+      I’m happiest when I’m learning a skill, transforming ideas , 
+      unleashing creativity and innovation into reality.
     </p>
    
     <a href= "#contact" className='btn btn-primary'>Lets Talk</a>

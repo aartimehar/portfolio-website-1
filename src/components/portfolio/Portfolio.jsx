@@ -11,44 +11,44 @@ const data= [
   {
     id:1 ,
     image:IMG1,
-    title: 'SEO Horizeon',
-    github:'https://github.com/aartimehar',
-    demo: 'https://dribbble.com/shots/20952494-Handyman-App'
+    title: 'Password Generator',
+    github:'https://github.com/aartimehar/Intermediate-JavaScript-Password-Generator',
+    demo: 'https://aartimehar.github.io/Intermediate-JavaScript-Password-Generator/'
   },
   {
     id:2 ,
     image:IMG2,
-    title: 'SEO Horizeon',
-    github:'https://github.com/aartimehar',
-    demo: 'https://dribbble.com/shots/20952494-Handyman-App'
+    title: 'Work Day Scheduler',
+    github:'https://github.com/aartimehar/planner-app-challenge',
+    demo: ' https://aartimehar.github.io/planner-app-challenge/'
   },
   {
     id:3 ,
     image:IMG3,
-    title: 'SEO Horizeon',
-    github:'https://github.com/aartimehar',
-    demo: 'https://dribbble.com/shots/20952494-Handyman-App'
+    title: ' Grid System ',
+    github:'https://github.com/aartimehar/Grid-system',
+    demo: 'https://aartimehar.github.io/Grid-system/'
   },
   {
     id:4 ,
     image:IMG4,
-    title: 'SEO Horizeon',
-    github:'https://github.com/aartimehar',
-    demo: 'https://dribbble.com/shots/20952494-Handyman-App'
+    title: 'Team Profile Generator',
+    github:'https://github.com/aartimehar/Team-Profile-Generator',
+    demo: 'https://aartimehar.github.io/Team-Profile-Generator/'
   },
   {
     id:5 ,
     image:IMG5,
-    title: 'SEO Horizeon',
-    github:'https://github.com/aartimehar',
-    demo: 'https://dribbble.com/shots/20952494-Handyman-App'
+    title: 'Code-Quiz App',
+    github:'https://github.com/aartimehar/ubbc-code-quiz-lesson',
+    demo: 'https://aartimehar.github.io/ubbc-code-quiz-lesson/index.html'
   },
   {
     id:6 ,
     image:IMG6,
-    title: 'SEO Horizeon',
-    github:'https://github.com/aartimehar',
-    demo: 'https://dribbble.com/shots/20952494-Handyman-App'
+    title: 'Weather Dashboard App',
+    github:'https://github.com/aartimehar/WeatherApp-with-UI',
+    demo: 'https://aartimehar.github.io/WeatherApp-with-UI/'
   }
 ]
 

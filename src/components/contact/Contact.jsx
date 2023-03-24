@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BiMessageAltDetail} from 'react-icons/bi'
+import {AiFillGithub} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
 import { useRef as UseRef } from "react";
 import emailjs from 'emailjs-com';
@@ -34,21 +34,21 @@ export const contact = () => {
       <article className="contact_option">
       <HiOutlineMail className='contact_icon'/>
       <h4>
-      <a href = "mailto:lyhxr@example.com">Email</a>
+      <a href = "mailto:lyhxr@example.com" target="_blank">Email</a>
       </h4>
       </article>
 
 
       <article className="contact_option">
-      <BiMessageAltDetail className='contact_icon' />
+      <AiFillGithub className='contact_icon' />
       <h4>
-      <a href = "https://react-icons.github.io/react-icons/search?q=email">Message</a>
+      <a href = "https://github.com/aartimehar" target="_blank">Github</a>
       </h4>
       </article>
 
       <article className="contact_option">
       <BsLinkedin className='contact_icon' />
-      <h3><a href = "https://www.linkedin.com/in/aartimeherchandani/">Linkedin</a>
+      <h3><a href = "https://www.linkedin.com/in/aartimeherchandani/" target="_blank">Linkedin</a>
       </h3>
       </article>
       </div>

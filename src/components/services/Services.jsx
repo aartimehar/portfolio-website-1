@@ -16,32 +16,52 @@ const Services = () => {
   <ul className = "service_list">
   <li>
     <BiCheckCircle className='service_icon'/>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p> User research and analysis
     </p>
   </li>
   <li>
     <BiCheckCircle className='service_icon'/>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p> Information architecture
     </p>
   </li>
   <li>
     <BiCheckCircle className='service_icon'/>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p> Wireframing and prototyping
     </p>
   </li>
   <li>
     <BiCheckCircle className='service_icon'/>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p> Visual design
     </p>
   </li>
   <li>
     <BiCheckCircle className='service_icon'/>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p> Interaction design
     </p>
   </li>
   <li>
     <BiCheckCircle className='service_icon'/>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p> Usability testing 
+    </p>
+  </li>
+  <li>
+    <BiCheckCircle className='service_icon'/>
+    <p> Responsive design
+    </p>
+  </li>
+  <li>
+    <BiCheckCircle className='service_icon'/>
+    <p> Accessibility
+    </p>
+  </li>
+  <li>
+    <BiCheckCircle className='service_icon'/>
+    <p> Design system creation
+    </p>
+  </li>
+  <li>
+    <BiCheckCircle className='service_icon'/>
+    <p> Collaborating with developers
     </p>
   </li>
 </ul>
@@ -54,71 +74,111 @@ const Services = () => {
     <ul className = "service_list">
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Custom website development
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Content Management System development
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> E-commerce website development
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Website maintenance and support
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Search Engine Optimization
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Responsive design
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> API integrations 
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> LWeb hosting and server management 
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> Website security 
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> Cross-browser compatibility
       </p>
     </li>
   </ul>
   </article>
   {/* End of web development*/}
 
-  <article className = "service">
+  <article className = "service service-content">
     <div className = "service_head">
     <h3>Content Creation</h3>
     </div>
     <ul className = "service_list">
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Blog writing 
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Copywriting 
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Social media content creation 
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Email marketing 
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Content strategy 
       </p>
     </li>
     <li>
       <BiCheckCircle className='service_icon'/>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p> Video production
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> Infographic design 
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> Podcast production
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> Content optimization 
+      </p>
+    </li>
+    <li>
+      <BiCheckCircle className='service_icon'/>
+      <p> Content distribution 
       </p>
     </li>
   </ul>

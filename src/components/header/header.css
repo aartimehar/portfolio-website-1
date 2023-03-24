@@ -1,29 +1,28 @@
+/** @format */
 
-header{
-    height: 110vh;
-    padding-top: 6rem;
-    overflow: hidden;
+header {
+  height:111vh;;
+  padding-top: 9rem;
+  overflow: hidden;
 }
 
-.container.header-container{
- margin-top: -66px;
-
+.container.header-container {
+  margin-top: 10px;
 }
-.container.header-container h5
-    {
-        font-size: 2rem;
-        line-height: 1.2;
-    } 
-   
-    .btn.btn-primary {
-        margin-left: 36px;
-    }
+.container.header-container h5 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
 
-    .container .header-container h1 {
-        font-size: 2rem;
-    }
+.btn.btn-primary {
+  margin-left: 36px;
+}
 
-    /*.header-subtitle
+.container .header-container h1 {
+  font-size: 2rem;
+}
+
+/*.header-subtitle
     {
         font-size: 1.5rem;
         font-weight: 300;
@@ -41,117 +40,403 @@ header{
         margin-bottom: 1rem;
     } */
 
-    .header-container {
-        text-align: center;
-        height: 100%;
-        position: relative;
-        /* overflow: hidden;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid var(--border-color);
-        background-color: var(--background-color);
-        color: var(--text-color);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        font-size: 1.5rem;
-        font-weight: 300;
-        text-transform: uppercase; */
-    }
+.header-container {
+  text-align: center;
+  height: 100%;
+ overflow: hidden;
+ justify-content: center!important;
+ align-items: center!important;
+              
+}
 
 /*===================CTA============================*/
 
 .cta-header {
-margin-top: 3rem;
-display: flex;
-gap: 1.5rem;
-justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 /*===================Socials============================*/
 
 .header_SocialsMedia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.9rem;
-    position: absolute;
-    left: 0%;
-    bottom: 39.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  position: absolute;
+  left: 20%;
+  bottom: 39.9rem;
 }
 
 .header_SocialsMedia::after {
-    content: "";
-    width: 1px;
-    height: 3rem;
-    background: var( --sixth-color);
+  content: "";
+  width: 1px;
+  height: 3rem;
+  background: var(--sixth-color);
 }
 
 .my {
-    background: linear-gradient(var (--sixth-color), transparent);
-    width: 50rem;
-    height: 50rem;
-    position: absolute;
-    left: calc(50% - 28rem);
-    margin-top: -3rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 2rem 0.5rem 0.5rem 3.5rem;
+  background: linear-gradient(var (--sixth-color), transparent);
+  width: 50rem;
+  height: 50rem;
+  position: absolute;
+  left: calc(50% - 28rem);
+  margin-top: -3rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 2rem 0.5rem 0.5rem 3.5rem;
 }
 
 /*===================Scroll Down ============================*/
 
 .scroll_down {
-    position: absolute;
-    right : -2.5rem;
-    bottom: 15rem;
-    transform: rotate(90deg);
-    font-weight: 200 ;
-    font-size: 0.9rem;
+  position: absolute;
+  right: 23.5rem;
+  bottom: 14rem;
+  transform: rotate(90deg);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.btn-header{
+  margin-left: 3rem;
 }
 
 /*===================Media Queries (Medium Devices) ============================*/
-@media screen and (max-width:1024px){
-    header {
-        height: 68vh;
-        width: 100%;
-        
-    }
+@media screen and (max-width: 1024px) {
+  header {
+    height: 90vh!important;
+    padding-top: 0rem;
+    overflow: visible;
+    margin-top: 4rem!important;
 
-    
+  
+  
+} 
+.container.header-container {
+   margin: 0px 0px  !important; 
+   padding: 0px 0px!important;
+   width: 100%;
+   place-self: center!important;
+ 
+}
+
+  .header_SocialsMedia,
+  .scroll_down {
+    display: none!important;
+  }
+   .container.header-container h5 {
+    font-size: 1.5rem!important;
+    line-height: 1!important;
+    white-space: nowrap!important;
+  } 
+   .cta-header {
+    margin-top: 3rem!important;
+    display: flex!important;
+    gap: 2.5rem!important;
+    justify-content: center!important;
+    align-items: center!important;
+  } 
+  .my {
+    width: 37rem !important;
+    height: 44rem !important;
+    margin-left: 132px;
+    margin-top: -2rem !important;
+  
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem!important;
+  } 
+}
+
+
+@media screen and (max-width: 1075px) {
+  header {
+    height: 90vh!important;
+    padding-top: 0rem;
+    overflow: visible;
+    margin-top: 4rem!important;
+
+  
+  
+} 
+.container.header-container {
+   margin: 0px 0px  !important; 
+   padding: 0px 0px!important;
+   width: 100%;
+   place-self: center!important;
+ 
+}
+
+  .header_SocialsMedia,
+  .scroll_down {
+    display: none!important;
+  }
+   .container.header-container h5 {
+    font-size: 1.5rem!important;
+    line-height: 1!important;
+    white-space: nowrap!important;
+  } 
+   .cta-header {
+    margin-top: 3rem!important;
+    display: flex!important;
+    gap: 2.5rem!important;
+    justify-content: center!important;
+    align-items: center!important;
+  } 
+  .my {
+    width: 37rem !important;
+    height: 44rem !important;
+    margin-left: 132px;
+    margin-top: -2rem !important;
+  
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem!important;
+  } 
 }
 
 /*===================Media Queries (small devices) ============================*/
 
-@media screen and (max-width:600px) {
-    header {
-        height: 80vh;
-    }
+@media screen and (max-width: 600px) {
+   header {
+    height: 90vh!important;
+    padding-top: 0rem;
+    overflow: visible;
+    margin-top: 4rem!important;
+  
+    
+    
+} 
+.container.header-container {
+   margin: 0px 0px  !important; 
+   padding: 0px 0px!important;
+   width: 100%;
+   place-self: center!important;
+   
+}
 
-    .header_SocialsMedia, .scroll_down {
-        display: none;
-    }
-    .container.header-container h5
-    {
-        font-size: 1.5rem;
-        line-height: 1;
-        white-space: nowrap;
-    } 
-    .cta-header {
-        margin-top: 3rem;
-        display: flex;
-        gap: 2.5rem;
-        justify-content: center;
-        }
-    .my {
-    width: 33rem!important;
-    height: 43rem!important;
-    margin-left: 180px;
-    margin-top: -2rem!important;
-    }
+  .header_SocialsMedia,
+  .scroll_down {
+    display: none!important;
+  }
+   .container.header-container h5 {
+    font-size: 1.5rem!important;
+    line-height: 1!important;
+    white-space: nowrap!important;
+  } 
+   .cta-header {
+    margin-top: 3rem!important;
+    display: flex!important;
+    gap: 2.5rem!important;
+    justify-content: center!important;
+    align-items: center!important;
+  } 
+  .my {
+    width: 37rem !important;
+    height: 44rem !important;
+    margin-left: 132px;
+    margin-top: -2rem !important;
+    
+  }
 
-    .btn.btn-primary {
-        margin-left: 2rem;
-    }
+  .btn.btn-header {
+    margin-left: 2rem!important;
+  } 
+
+}
+/*===================Media Queries (smaller Devices) ============================*/
+
+@media screen and (max-width: 400px) {
+  .header_SocialsMedia {
+    bottom: 42.9rem;
+  }
+
+  .scroll_down {
+    bottom: 25rem;
+    right: -3.5rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 165vh;
+    margin-top: -6rem;
+  }
+
+  .my {
+    left: calc(50% - 26rem);
+  }
+ 
+}
+
+ @media screen and (max-width: 1200px) {
+  .header_SocialsMedia {
+    bottom: 42.9rem;
+  }
+
+  .scroll_down {
+    bottom: 25rem;
+    right: -3.5rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 165vh;
+    margin-top: -6rem;
+  }
+
+  .my {
+    left: calc(50% - 26rem);
+  }
+}
+ @media screen and (max-width: 1300px) {
+  .header_SocialsMedia {
+    bottom: 48.9rem;
+    left: -8.5rem;
+  }
+
+  .scroll_down {
+    bottom: 25rem;
+    right: -8.5rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 165vh;
+    margin-top: -3rem;
+  }
+
+  .my {
+    left: calc(50% - 26rem);
+  }
+
+  .container.header-container h5 {
+    font-size: 1.5rem!important;
+    line-height: 1!important;
+    white-space: nowrap!important;
+  }
+}
+
+  @media screen and (max-width: 1400px) {
+  .header_SocialsMedia {
+    bottom: 48.9rem;
+    left: -9.5rem;
+  }
+
+  .scroll_down {
+    bottom: 28rem;
+    right:  -9rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 165vh;
+    margin-top: -3rem;
+  }
+
+  .my {
+    left: calc(50% - 26rem);
+  }
+
+  .container.header-container {
+   padding: 0px 250px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .header_SocialsMedia {
+    bottom: 48.9rem;
+    left: -9.5rem;
+  }
+
+  .scroll_down {
+    bottom: 25rem;
+    right:  -13rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 165vh;
+    margin-top: -3rem;
+  }
+
+  .my {
+    left: calc(50% - 26rem);
+  }
+
+  .container.header-container {
+   padding: 0px 250px;
+  }
+} 
+
+@media screen and (max-width: 1600px) {
+  .header_SocialsMedia {
+    bottom: 30rem;
+    left: 9rem;
+  }
+
+  .scroll_down {
+    bottom: 8rem;
+    right:  7rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+  .btn.btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 165vh;
+    margin-top: -3rem;
+  }
+
+  .my {
+    left: calc(50% - 26rem);
+  }
+
+  .container.header-container {
+   padding: 0px 250px;
+  }
 }

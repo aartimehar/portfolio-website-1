@@ -5,7 +5,7 @@
 }
 
 .item-portfolio {
-    background: transparent;
+    background: var(--second-color); 
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -14,7 +14,7 @@
 
 .item-portfolio:hover {
     border-color: var(--accent);
-    background: teal;
+    background  :rgb(8, 200, 200);
 }
 
 .portfolio_image-item {
@@ -24,13 +24,15 @@
 }
 
 .item-portfolio h3 {
-    margin:1.2rem 110px 2rem;
+    padding: 50px;
+    white-space: nowrap;
+    text-align: center;
 }
 
 
 .portfolio-item-cta {
     display: flex;
-    gap: 4rem ;
+    gap: 6rem ;
     margin-bottom: 1rem;
 
 }
@@ -51,8 +53,9 @@
 
 @media screen and (max-width: 600px) {
     .portfolio_container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr!important;
         gap: 1rem;
+        margin-left: 1.6rem!important;
     }
     .item-portfolio {
         padding: -0.7rem;
@@ -63,4 +66,72 @@
     }
 
     
+}
+
+
+/*===================Media Queries (large devices) ============================*/
+@media screen and (max-width: 1200px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap:7.9rem;
+        margin-left: 8.2rem;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap:9.9rem;
+        margin-left: 10.2rem;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap:9.9rem;
+        margin-left: 10.2rem;
+    }
+
+    .portfolio-item-cta {
+        
+        gap: 13rem ;
+       
+
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap:7.9rem;
+        margin-left: 10.2rem;
+    }
+
+    .portfolio-item-cta {
+        
+        gap: 12rem ;
+       
+
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap:4.9rem;
+        margin-left: 10.2rem;
+    }
+
+    .portfolio-item-cta {
+        
+        gap: 10rem ;
+       
+
+    }
+
 }

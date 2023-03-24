@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/Aarti-CV.docx'
 import './header.css'
 
 const CTAheader = () => {
@@ -7,7 +7,7 @@ const CTAheader = () => {
     <div className='cta-zindex'>
         <div className= "cta-header"></div>
         <a href = {CV} download className='btn'>Download CV</a>
-        <a href = "#Contact" className='btn btn-primary'> Lets Talk </a>
+        <a href = "#contact" className='btn btn-header'> Lets Talk </a>
     </div>
   )
 }

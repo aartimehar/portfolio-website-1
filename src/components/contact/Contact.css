@@ -1,8 +1,9 @@
 .container.container_contact {
-    width:58%;
+    width:65%;
     display: grid;
     grid-template-columns: 30% 50%;
-    gap: 12%;
+    gap: 17%;
+    margin-top: 120px;
 }
 
 .contact_options {
@@ -12,12 +13,14 @@ gap: 1.2rem;
 }
 
 .contact_option {
-    background: red;
+    background: transparent;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: all 400ms ease;
+    box-shadow:inset -9px 10px 68px 2px rgba(255, 123, 0, 0.603);
+
 }
 
 .contact_option:hover {
@@ -37,12 +40,19 @@ gap: 1.2rem;
     font-size: 0.8rem;
 }
 
+.btn.btn-contact  {
+    margin-left: 14rem;
+    background:var(--sixth-color);
+    color: aliceblue;
+}
+
 /* ======================FORM================= */
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin-top: 30px;
 
 }
 
@@ -50,11 +60,15 @@ input , textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 1px solid burlywood;
+    background: var(--second-color);
+    border: 2px solid coral;
     resize: none;
     color: aliceblue;
+    transition: var(--transition);
+    box-shadow:inset -9px 10px 68px 2px rgba(255, 123, 0, 0.603);
 }
+
+
 
 
 /*===================Media Queries (Medium Devices) ============================*/
@@ -64,6 +78,12 @@ input , textarea {
         grid-template-columns: 1fr;
         gap:2rem;
     }
+
+    .btn.btn-contact {
+        margin-left: 18rem;
+    
+}
+
 }
 
 
@@ -73,5 +93,71 @@ input , textarea {
    
     .container.container_contact {
         width: var(--containter-width-sm);
+        gap: 5%!important;
     }
+    
+        
+    
+    .btn.btn-contact  {
+        margin-left: 9rem;
+       
+    }
+  
+   
+}
+
+@media screen and (max-width: 400px) {
+   
+  
+    .btn.btn-contact  {
+        margin-left: 7rem;
+       
+    }
+  
+   
+}
+
+
+@media screen and (max-width: 1200px) {
+    .btn.btn-contact  {
+        margin-left: 8rem;
+       margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .btn.btn-contact  {
+        margin-left: 8rem;
+       margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .btn.btn-contact  {
+        margin-left: 10rem;
+       margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .btn.btn-contact  {
+        margin-left: 11rem;
+       margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .btn.btn-contact  {
+        margin-left: 11rem;
+       margin-top: 10px;
+    }
+
+    .container.container_contact {
+        gap:35%;
+    }
+
 }

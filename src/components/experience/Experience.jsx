@@ -2,12 +2,14 @@ import React from 'react'
 import './experience.css'
 import {GoVerified} from 'react-icons/go'
 
+
 const Experience = () => {
   return (
     <section id='experience'> 
+    
     <h5> What are the skills I have </h5>
     <h2> My experience </h2>
-
+  
     <div className="container experience_container">
       <div className="experience_frontend">
         <h3>Front-end Development</h3>

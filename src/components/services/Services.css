@@ -3,30 +3,33 @@
     grid-template-columns: repeat(3,1fr);
     gap:3rem;
     margin-top: 10rem;
+    transition: all ease 0.2s;
 }
 
 .service {
-    background: blue;
+    background: var(--second-color);
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(---color-primary);
     height: fit-content;
     transition: var(--transition);
+    box-shadow:inset -9px 10px 68px 2px rgba(255, 123, 0, 0.603);
+
 }
 
    .service:hover {
     background: transparent;
-        border-color: green;
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(255, 136, 0, 0.744);
     }
 
     .service_head {
-        background: plum;
+        background: floralwhite;
         padding: 2rem;
         border-radius: 0 0 2rem 2rem;
         box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
     }
 
     .service_head h3 {
-        color: green;
+        color: rgb(188, 16, 16);
         font-size: 1.5rem;
         text-align: center;
     }
@@ -40,11 +43,13 @@
         display: flex;
         gap:1rem;
         margin-bottom: 0.8rem;
+        color: aliceblue;
     }
 
     .service_icon {
-        color: bisque;
-        margin-top: 2px;
+        color: rgb(255, 196, 196);
+        margin-top: 10px;
+        width: 30px;
     }
 
     .service_list p {
@@ -54,13 +59,18 @@
 /*===================Media Queries (Medium Devices) ============================*/
 @media screen and (max-width:1024px){
    .services_container {
-    grid-template-columns: 1fr 1fr;
     gap: 2rem;;
    }
 
    .service {
     height: auto;
    }
+
+   #services {
+    margin-top: 12rem;
+   }
+
+  
   
 }
 
