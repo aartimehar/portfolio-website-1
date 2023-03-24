@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from '../../assets/Aarti-CV.docx'
-import './header.css'
+import './header1.css'
 
 const CTAheader = () => {
   return (

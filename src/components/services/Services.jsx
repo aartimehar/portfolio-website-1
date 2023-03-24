@@ -1,6 +1,6 @@
 import React from 'react'
 import {BiCheckCircle} from 'react-icons/bi'
-import './services.css'
+import './services1.css'
 
 
 const Services = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.css'
+import './contact1.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {AiFillGithub} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
