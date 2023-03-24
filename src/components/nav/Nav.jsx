@@ -1,5 +1,5 @@
 import React from 'react'
-import './nav.css'
+import './navbar.css'
 import {ImHome} from 'react-icons/im'
 import{ImUser} from 'react-icons/im'
 import{ImBook} from 'react-icons/im'
@@ -17,7 +17,6 @@ const Nav = () => {
 <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active': ''}><RiServiceFill/></a>
 <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active': ''}><TbMessage/></a>
 </nav>
-  )
-}
+  )};
 
 export default Nav;
