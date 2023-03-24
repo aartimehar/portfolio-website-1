@@ -34,7 +34,7 @@ export const contact = () => {
       <article className="contact_option">
       <HiOutlineMail className='contact_icon'/>
       <h4>
-      <a href = "mailto:lyhxr@example.com" target="_blank">Email</a>
+      <a href = "mailto:lyhxr@example.com">Email</a>
       </h4>
       </article>
 
@@ -42,13 +42,13 @@ export const contact = () => {
       <article className="contact_option">
       <AiFillGithub className='contact_icon' />
       <h4>
-      <a href = "https://github.com/aartimehar" target="_blank">Github</a>
+      <a href = "https://github.com/aartimehar">Github</a>
       </h4>
       </article>
 
       <article className="contact_option">
       <BsLinkedin className='contact_icon' />
-      <h3><a href = "https://www.linkedin.com/in/aartimeherchandani/" target="_blank">Linkedin</a>
+      <h3><a href = "https://www.linkedin.com/in/aartimeherchandani/">Linkedin</a>
       </h3>
       </article>
       </div>

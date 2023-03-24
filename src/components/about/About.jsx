@@ -13,7 +13,7 @@ const About = () => {
     <div className = "container about_container">
     <div className = "about_me"> 
     <div className = 'aboutme_image'>
-    <img src = {MY} alt= "aboutme-image" className='about_fotorai'/>
+    <img src = {MY} className='about_fotorai'/>
     </div>
     </div>
 
@@ -49,20 +49,19 @@ const About = () => {
       <br></br>
       As a supporter of 
       Simon Fitzpatrick,   
-      <a href=" https://iep.utm.edu/simplici/#" target="_blank" aria-label="Simplicity in the Philosophy of Science">
+      <a href=" https://iep.utm.edu/simplici/#"  aria-label="Simplicity in the Philosophy of Science">
       Simplicity in the Philosophy of Science </a> I agree less is more.
       I have a  <span class="bold"> BA in Project Management </span> from &nbsp;
       <a href="https://www.mdx.ac.uk/"
-      target="_blank"
       aria-label="open link to bootstrap sizing guide.">Middlesex University London . </a>
       The <span class="bold"> IBM Environmental Award </span> from &nbsp;
       <a href="https://www.mdxsu.com/articles/middlesex-uni-awarded-a-1st-for-environmental-impact"
-        target="_blank"
+        
         aria-label="IBM Environmental Award" >Middlesex University - for sustainability impact </a>
         and <span class="bold"> active member in </span>
       <a
         href="https://peopleandplanet.org/university-league/2021/u226/middlesex-university"
-        target="_blank"
+        
         aria-label="open link to bootstrap sizing guide.">People and Planet Society.</a>
       
       <br></br>

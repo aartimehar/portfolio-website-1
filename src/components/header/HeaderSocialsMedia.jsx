@@ -7,9 +7,9 @@ import './header1.css'
 const HeaderSocialsMedia = () => {
   return (
     <div className='header_SocialsMedia'>
-       <a href="https://www.linkedin.com/in/aartimeherchandani/" target= "_blank"> <ImLinkedin />  </a>
-       <a href="https://github.com/aartimehar/" target= "_blank"> <ImGithub />  </a>
-       <a href="https://twitter.com/aartimaher" target= "_blank"> <ImTwitter />  </a>
+       <a href="https://www.linkedin.com/in/aartimeherchandani/" > <ImLinkedin />  </a>
+       <a href="https://github.com/aartimehar/" > <ImGithub />  </a>
+       <a href="https://twitter.com/aartimaher" > <ImTwitter />  </a>
   </div>
   )
 }
