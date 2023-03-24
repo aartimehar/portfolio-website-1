@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonial.css'
+import './testimonia1.css'
 import AVTAR1 from '../../assets/Screenshot 2023-03-24 193721.png'
 import AVTAR2 from '../../assets/AvatarMaker.png'
 import AVTAR3 from '../../assets/AvatarMaker (1).png'
