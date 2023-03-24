@@ -1,5 +1,5 @@
 import React from 'react'
-import About from'./about.css'
+import './about.css'
 import MY from '../../assets///Fotor_AI.png'
 import {CgAwards} from 'react-icons/cg'
 import {TbCertificate} from 'react-icons/tb'
