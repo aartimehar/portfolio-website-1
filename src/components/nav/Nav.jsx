@@ -1,5 +1,5 @@
 import React from 'react'
-import '../nav/nav.css'
+import Nav from './nav.css'
 import {ImHome} from 'react-icons/im'
 import{ImUser} from 'react-icons/im'
 import{ImBook} from 'react-icons/im'
@@ -20,4 +20,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;
