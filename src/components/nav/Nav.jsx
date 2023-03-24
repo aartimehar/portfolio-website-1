@@ -1,5 +1,5 @@
 import React from 'react'
-import './nav.css'
+import '../nav/nav.css'
 import {ImHome} from 'react-icons/im'
 import{ImUser} from 'react-icons/im'
 import{ImBook} from 'react-icons/im'
