@@ -9,8 +9,9 @@ import '../../index.css'
 
 const Header = () => {
   return (
+   
      <header>
-      <div className="container header-container">
+      <section id = '#home' className="container header-container">
         <h5>Hello I'm </h5>
         <h1>Aarti </h1>
         <h5 className="text-dark">{"<Front End Web Developer/>"}</h5>
@@ -21,7 +22,7 @@ const Header = () => {
       </div>
 
       <a href = "#contact" className='scroll_down'> Scroll Down </a>
-      </div>
+      </section>
       </header>
   )
 }
