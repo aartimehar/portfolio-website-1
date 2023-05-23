@@ -12,9 +12,6 @@
     display: grid;
     justify-content: left;
     place-items: center;
-    margin-left: -31px;
-    margin-top: 8rem;
-    
 }
 
 .about_me:hover{
@@ -41,8 +38,6 @@
     display: grid;
     grid-template-columns:repeat(3 , 1fr);
     gap: 0.5rem;
-    
-    margin-top: 84px;
 }
 
 
@@ -111,12 +106,111 @@ margin: 1rem 2rem 3.6rem;
 color: var(--fifth-color);
 
 }
+.contact-button{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+
+
+ /*===================Media Queries (smaller devices) ============================ */
+
+@media screen and (max-width: 480px) {
+
+  
+
+    .contact-button{
+        margin-top: 28px;
+        padding-right: 50px
+    }
+    
+    .about_container {
+        display: grid;
+        grid-template-columns: none;
+        height: 250vh;
+      
+    }
+    .aboutme_content p {
+        justify-content: center!important;
+        align-items: center!important;
+        margin: 0rem 4rem;
+       
+    }
+
+    .btn.btn-about {
+        margin-left: 2rem!important;
+    }
+
+    .about_container {
+        padding: 0;
+      
+      
+    }
+    .about_me {
+        width: none;
+        aspect-ratio: none; 
+        border-radius: 2rem; 
+        display: grid; 
+        justify-content: none; 
+        place-items: none; 
+        margin-left: none; 
+        margin-top: none; 
+    }
+    .aboutme_image {
+    
+        overflow: hidden;
+        transform: rotate(0);
+        transition: var(--transition);
+        margin-top: 30px!important;
+        
+    } 
+
+    .about_me {
+        width: 100%! important;
+        
+    }
+
+    .aboutme_content {
+        width: 100%! important;
+        text-align: center;
+        place-items: center!important;
+        justify-content: center!important;
+        align-items: center;
+        
+    }
 
 
 
+    .aboutme_cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+        margin-top: 0!important;
+        place-items: center!important;
+        justify-content: center!important;
+        border: 1px solid #2d2d2d;
+       
+        }
+
+        .aboutme_card {
+            width: 299px!important;
+            height: 220px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+           
+            justify-content: center;
+           
+            text-align: center;
+            place-items: center!important;
+            justify-content: center!important;
+
+        }
+
+}
 
 
-/*===================Media Queries (Medium Devices) ============================*/
+/* ===================Media Queries (Medium Devices) ============================ */
 
 @media screen and (max-width: 1024px) {
     .about_container {
@@ -142,13 +236,11 @@ color: var(--fifth-color);
         margin-left: 23rem;
     }
 
-    
-
  
 }
 
 
-/*===================Media Queries (small devices) ============================*/
+/*===================Media Queries (small devices) ============================ */
 
 @media screen and (max-width: 600px) {
     .aboutme_content p {
@@ -229,86 +321,8 @@ color: var(--fifth-color);
         
 }
  
-/*===================Media Queries (smaller devices) ============================*/
 
-@media screen and (max-width: 400px) {
-    
-
-    .aboutme_content p {
-        justify-content: center!important;
-        align-items: center!important;
-       
-    }
-
-    .btn.btn-about {
-        margin-left: 2rem!important;
-    }
-
-    .about_container {
-        height: 227vh!important;
-        padding: 0;
-        margin: 0!important;
-      
-    }
-
-    .aboutme_image {
-    
-        overflow: hidden;
-        transform: rotate(0);
-        transition: var(--transition);
-        margin-top: 30px!important;
-        
-    } 
-
-    .about_me {
-        width: 100%! important;
-        
-    }
-
-    .aboutme_content {
-        width: 100%! important;
-        text-align: center;
-        place-items: center!important;
-        justify-content: center!important;
-        align-items: center;
-        
-        
-        
-    }
-
-    .aboutme_cards {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        display: grid;
-        margin-top: 0!important;
-        place-items: center!important;
-        justify-content: center!important;
-        width: 500px;
-        border: 1px solid #2d2d2d;
-       
-       
-        
-        
-       
-        
-        }
-
-        .aboutme_card {
-            width: 299px!important;
-            height: 220px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-           
-            justify-content: center;
-           
-            text-align: center;
-            place-items: center!important;
-            justify-content: center!important;
-
-        }
-}
-
+ 
 @media only screen and (max-width:767px) {
     .about_container {
         height: 227vh!important;
@@ -402,9 +416,7 @@ color: var(--fifth-color);
            
             
         }
-}
-
-@media only screen and (max-width:1067px) {
+}  @media only screen and (max-width:1067px) {
    
     .about_me {
         width: 300px;
@@ -417,7 +429,6 @@ color: var(--fifth-color);
         margin-top: 0!important;
         place-items: center!important;
         justify-content: center!important;
-        margin-left: -4rem;
         border: 1px solid #2d2d2d;
                      
         }
@@ -464,15 +475,15 @@ color: var(--fifth-color);
         
     }
 
-}
+} 
 
-/*===================Media Queries (smaller devices) ============================*/
+/*===================Media Queries (smaller devices) ============================ */
 
 
 @media screen and (max-width: 1200px) {
 .about_container {
    
-    margin: 6rem 1rem;
+    margin: 0rem 1rem;
     gap: 3%;
     height: 100vh;
 
@@ -499,7 +510,7 @@ color: var(--fifth-color);
  @media screen and (max-width: 1300px) {
     .about_container {
        
-        margin: 6rem 7rem;
+        margin: 0rem 7rem;
         gap: 3%;
         height: 100vh;
     
@@ -531,7 +542,7 @@ color: var(--fifth-color);
     @media screen and (max-width: 1400px) {
         .about_container {
                
-            margin: 6rem 7rem;
+            margin: 0rem 7rem;
             gap: 3%;
             height: 100vh;
             
@@ -563,7 +574,7 @@ color: var(--fifth-color);
         @media screen and (max-width: 1500px) {
             .about_container {
                            
-                margin: 7rem 11rem;
+                margin: 0rem 11rem;
                 gap: 3%;
                 height: 100vh;
                         
@@ -595,7 +606,7 @@ color: var(--fifth-color);
             @media screen and (max-width: 1600px) {
                 .about_container {
                                            
-                    margin: -6rem 9rem;
+                    margin: 0rem 9rem;
                     gap: 3%;
                     height: 100vh;
                                         
@@ -620,6 +631,6 @@ color: var(--fifth-color);
                     margin: 4rem 2rem 3rem 3rem;
                                        
                 }
-                }
+                } 
                 
-     
+      

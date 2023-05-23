@@ -69,8 +69,9 @@ const About = () => {
       I’m happiest when I’m learning a skill, transforming ideas , 
       unleashing creativity and innovation into reality.
     </p>
-   
+   <div className='contact-button'>
     <a href= "#contact" className='btn btn-primary'>Lets Talk</a>
+    </div>
     </div> 
     </div> 
     </section>

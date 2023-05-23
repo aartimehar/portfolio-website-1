@@ -80,6 +80,21 @@
     .services_container {
         grid-template-columns: 1fr;
         gap:1.6rem;
+       
     }
 
+}
+
+
+/*===================Media Queries (small devices) ============================*/
+
+@media screen and (max-width:480px) {
+    #services {
+        margin-top: 150px;
+    
+    }
+    .services_container {
+        margin-top: 0px;
+        padding: 30px;
+    }
 }

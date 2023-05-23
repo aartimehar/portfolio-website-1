@@ -2,9 +2,9 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 20rem;
-    margin-top: 10rem;
     height: 50vh;
     transition: all ease 0.2s;
+    margin-top: 8rem;
 }
 
 .experience_container > div {
@@ -33,7 +33,7 @@
 }
 
 #experience{
-    margin-top: 13rem;;
+    margin-top: 18rem;
 }
 
 
@@ -86,12 +86,19 @@ margin-left: 45px;
 
 /*===================Media Queries (small devices) ============================*/
 
+@media screen and (max-width: 480px) {
+ 
+}
+
 @media screen and (max-width: 600px) {
     .experience_container {
         gap: 16rem!important;
-        height: 200vh!important;
+        height: 150vh!important;
+       
     }
-    
+    #experience{
+        margin-top: 28rem;
+    }
     .experience_content {
         display: grid;
         grid-template-columns: 1fr 1fr;

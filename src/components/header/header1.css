@@ -1,7 +1,7 @@
 /** @format */
 
 header {
-  height:111vh;;
+  height: 125vh;
   padding-top: 9rem;
   overflow: hidden;
 }
@@ -41,8 +41,8 @@ header {
     } */
 
 .header-container {
-  text-align: center;
-  height: 100%;
+ text-align: center;
+ height: 100%;
  overflow: hidden;
  justify-content: center!important;
  align-items: center!important;
@@ -77,16 +77,13 @@ header {
   background: var(--sixth-color);
 }
 
+
+
 .my {
   background: linear-gradient(var (--sixth-color), transparent);
-  width: 50rem;
-  height: 50rem;
-  position: absolute;
-  left: calc(50% - 28rem);
-  margin-top: -3rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 2rem 0.5rem 0.5rem 3.5rem;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 /*===================Scroll Down ============================*/
@@ -100,11 +97,64 @@ header {
   font-size: 0.9rem;
 }
 
-.btn-header{
-  margin-left: 3rem;
+.btn.header-btn{
+  margin-left: 20px;
 }
 
-/*===================Media Queries (Medium Devices) ============================*/
+/* ================Media Queries (Small Devices ) ================ */
+@media screen and (max-width: 480px) {
+    
+  .container.header-container {
+    margin-top: 70px;
+    width: var(--containter-width-sm);
+
+}
+  .container {
+    margin: none;
+
+  }
+  
+  .header_SocialsMedia {
+    bottom: 36.9rem;
+    
+  }
+
+  .scroll_down {
+    bottom: -3.5rem;
+    right: -1.5rem;
+  }
+
+  .cta-header {
+    gap: 4.5rem;
+  }
+
+ .btn-header {
+    margin-left: 2rem;
+  }
+
+  header {
+    height: 100vh;
+    margin-top: 1rem;
+  }
+  .my {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===================Media Queries (Medium Devices) ============================ */
 @media screen and (max-width: 1024px) {
   header {
     height: 90vh!important;
@@ -140,11 +190,9 @@ header {
     align-items: center!important;
   } 
   .my {
-    width: 37rem !important;
-    height: 44rem !important;
-    margin-left: 132px;
-    margin-top: -2rem !important;
-  
+    margin: auto;
+    width: 50%;
+    padding: 10px;
   }
 
   .btn.btn-header {
@@ -188,10 +236,9 @@ header {
     align-items: center!important;
   } 
   .my {
-    width: 37rem !important;
-    height: 44rem !important;
-    margin-left: 132px;
-    margin-top: -2rem !important;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
   
   }
 
@@ -208,9 +255,7 @@ header {
     padding-top: 0rem;
     overflow: visible;
     margin-top: 4rem!important;
-  
-    
-    
+     
 } 
 .container.header-container {
    margin: 0px 0px  !important; 
@@ -237,10 +282,9 @@ header {
     align-items: center!important;
   } 
   .my {
-    width: 37rem !important;
-    height: 44rem !important;
-    margin-left: 132px;
-    margin-top: -2rem !important;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
     
   }
 
@@ -249,42 +293,18 @@ header {
   } 
 
 }
-/*===================Media Queries (smaller Devices) ============================*/
+/*===================Media Queries (smaller Devices) ============================ */
 
-@media screen and (max-width: 400px) {
-  .header_SocialsMedia {
-    bottom: 42.9rem;
-  }
-
-  .scroll_down {
-    bottom: 25rem;
-    right: -3.5rem;
-  }
-
-  .cta-header {
-    gap: 4.5rem;
-  }
-
-  .btn.btn-header {
-    margin-left: 2rem;
-  }
-
-  header {
-    height: 165vh;
-    margin-top: -6rem;
-  }
-
-  .my {
-    left: calc(50% - 26rem);
-  }
- 
-}
 
  @media screen and (max-width: 1200px) {
   .header_SocialsMedia {
     bottom: 42.9rem;
   }
-
+  .my {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ }
   .scroll_down {
     bottom: 25rem;
     right: -3.5rem;
@@ -303,9 +323,7 @@ header {
     margin-top: -6rem;
   }
 
-  .my {
-    left: calc(50% - 26rem);
-  }
+ 
 }
  @media screen and (max-width: 1300px) {
   .header_SocialsMedia {
@@ -327,12 +345,14 @@ header {
   }
 
   header {
-    height: 165vh;
+    height: 125vh;
     margin-top: -3rem;
   }
 
   .my {
-    left: calc(50% - 26rem);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
   }
 
   .container.header-container h5 {
@@ -362,14 +382,14 @@ header {
   }
 
   header {
-    height: 165vh;
+    height: 125vh;
     margin-top: -3rem;
   }
-
   .my {
-    left: calc(50% - 26rem);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
   }
-
   .container.header-container {
    padding: 0px 250px;
   }
@@ -395,12 +415,13 @@ header {
   }
 
   header {
-    height: 165vh;
+    height: 125vh;
     margin-top: -3rem;
   }
-
   .my {
-    left: calc(50% - 26rem);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
   }
 
   .container.header-container {
@@ -428,12 +449,14 @@ header {
   }
 
   header {
-    height: 165vh;
+    height: 125vh;
     margin-top: -3rem;
   }
 
   .my {
-    left: calc(50% - 26rem);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
   }
 
   .container.header-container {

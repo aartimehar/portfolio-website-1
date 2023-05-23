@@ -106,11 +106,11 @@ input , textarea {
    
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
    
   
     .btn.btn-contact  {
-        margin-left: 7rem;
+        align-self: center;
        
     }
   
